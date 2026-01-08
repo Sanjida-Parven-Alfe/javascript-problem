@@ -1,5 +1,7 @@
 function reverseString(str) {
-    return str.split('').reverse().join('');
+    const charArray = str.split('');  
+    const reversedArray = charArray.reverse(); 
+    const finalResult = reversedArray.join(''); 
+    return finalResult;
 }
-
-console.log(reverseString("hello"));
+console.log(reverseString("hello")); 
